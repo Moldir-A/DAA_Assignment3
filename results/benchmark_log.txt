@@ -1,0 +1,21 @@
+Measuring 1000 / 4000 (one warm-up, five measured runs)
+1000 / 4000: MST=147970 SCC=27 DAG_SUM=396274 OK
+Measuring 1000 / 20000 (one warm-up, five measured runs)
+1000 / 20000: MST=30363 SCC=1 DAG_SUM=252411 OK
+Measuring 3162 / 12648 (one warm-up, five measured runs)
+3162 / 12648: MST=468911 SCC=137 DAG_SUM=1271911 OK
+Measuring 3162 / 63240 (one warm-up, five measured runs)
+3162 / 63240: MST=97589 SCC=1 DAG_SUM=723157 OK
+Measuring 10000 / 40000 (one warm-up, five measured runs)
+10000 / 40000: MST=1486139 SCC=373 DAG_SUM=3941828 OK
+Measuring 10000 / 200000 (one warm-up, five measured runs)
+10000 / 200000: MST=309550 SCC=1 DAG_SUM=2381342 OK
+Measuring 31623 / 126492 (one warm-up, five measured runs)
+31623 / 126492: MST=4715515 SCC=1188 DAG_SUM=12551891 OK
+Measuring 31623 / 632460 (one warm-up, five measured runs)
+31623 / 632460: MST=968517 SCC=1 DAG_SUM=7376612 OK
+Measuring 100000 / 400000 (one warm-up, five measured runs)
+100000 / 400000: MST=15012094 SCC=3923 DAG_SUM=40096539 OK
+Measuring 100000 / 2000000 (one warm-up, five measured runs)
+100000 / 2000000: MST=3056681 SCC=1 DAG_SUM=23512087 OK
+PASS: 50 core rows and 10 bonus rows saved to results

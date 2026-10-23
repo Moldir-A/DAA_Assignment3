@@ -1,0 +1,29 @@
+
+data/connected.txt: n=5 m=7
+MST/forest: weight=10 components=1 edges=[Edge[from=1, to=2, weight=1], Edge[from=0, to=2, weight=2], Edge[from=3, to=4, weight=2], Edge[from=1, to=3, weight=5]]
+MST/forest: weight=10 components=1 edges=[Edge[from=0, to=2, weight=2], Edge[from=2, to=1, weight=1], Edge[from=1, to=3, weight=5], Edge[from=3, to=4, weight=2]]
+
+data/disconnected.txt: n=6 m=5
+MST/forest: weight=8 components=3 edges=[Edge[from=1, to=2, weight=-1], Edge[from=0, to=1, weight=2], Edge[from=3, to=4, weight=7]]
+MST/forest: weight=8 components=3 edges=[Edge[from=0, to=1, weight=2], Edge[from=1, to=2, weight=-1], Edge[from=3, to=4, weight=7]]
+
+data/cyclic.txt: n=7 m=9
+SCC count=4 ids=[1, 1, 1, 2, 2, 3, 0]
+Tarjan agrees=true; scans: Kosaraju=18 Tarjan=9
+Cycle detected: no topological order or DAG shortest paths
+Condensation: vertices=4 edges=2
+Critical component path=[1, 2, 3] weight=9
+
+data/dag_negative.txt: n=7 m=7
+SCC count=7 ids=[2, 1, 3, 5, 6, 4, 0]
+Tarjan agrees=true; scans: Kosaraju=14 Tarjan=7
+Topological order=[0, 1, 6, 2, 3, 5, 4]
+Vertex 0: distance=0 path=[0]
+Vertex 1: distance=0 path=[1]
+Vertex 2: distance=-2 path=[1, 2]
+Vertex 3: distance=1 path=[1, 2, 3]
+Vertex 4: distance=-4 path=[1, 2, 3, 4]
+Vertex 5: distance=0 path=[1, 2, 5]
+Vertex 6: distance=0 path=[6]
+Condensation: vertices=7 edges=7
+Critical component path=[2, 6] weight=10

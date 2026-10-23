@@ -1,0 +1,8 @@
+Java: 17.0.20
+VM: OpenJDK 64-Bit Server VM
+OS: Linux amd64
+Available processors: 8
+Max heap bytes: 2147483648
+Timing: one warm-up, median of five runs; generation, validation and file IO excluded
+DagShortestPath timing includes Kahn preprocessing; its edgeScans counts relaxation only
+Counters are observed inside algorithms, not reconstructed from formulas

@@ -1,0 +1,291 @@
+{
+  "slopes": [
+    {
+      "algorithm": "Kruskal",
+      "density": "sparse",
+      "scans": 1.05500251082575,
+      "operations": 1.0958679136953993
+    },
+    {
+      "algorithm": "Kruskal",
+      "density": "dense",
+      "scans": 1.119420822596835,
+      "operations": 1.0881679317124369
+    },
+    {
+      "algorithm": "Prim",
+      "density": "sparse",
+      "scans": 1.0,
+      "operations": 1.1018685644563586
+    },
+    {
+      "algorithm": "Prim",
+      "density": "dense",
+      "scans": 1.0,
+      "operations": 1.0850899585931917
+    },
+    {
+      "algorithm": "Kosaraju",
+      "density": "sparse",
+      "scans": 1.0,
+      "operations": 1.0
+    },
+    {
+      "algorithm": "Kosaraju",
+      "density": "dense",
+      "scans": 1.0,
+      "operations": 1.0
+    },
+    {
+      "algorithm": "Kahn",
+      "density": "sparse",
+      "scans": 1.0,
+      "operations": 1.0
+    },
+    {
+      "algorithm": "Kahn",
+      "density": "dense",
+      "scans": 1.0,
+      "operations": 1.0
+    },
+    {
+      "algorithm": "DagShortestPath",
+      "density": "sparse",
+      "scans": 1.0,
+      "operations": 1.0
+    },
+    {
+      "algorithm": "DagShortestPath",
+      "density": "dense",
+      "scans": 1.0,
+      "operations": 1.0
+    }
+  ],
+  "ratios": [
+    {
+      "algorithm": "Kruskal",
+      "density": "sparse",
+      "formula": "comparisons / (m log2 m)",
+      "values": [
+        0.8960758229399081,
+        0.9281140363459476,
+        0.9398381290336288,
+        0.9263779859744136,
+        0.9491172075173866
+      ],
+      "min": 0.8960758229399081,
+      "max": 0.9491172075173866
+    },
+    {
+      "algorithm": "Kruskal",
+      "density": "dense",
+      "formula": "comparisons / (m log2 m)",
+      "values": [
+        0.935373672494199,
+        0.9220698445878062,
+        0.9462612268654464,
+        0.9531609784648941,
+        0.9417245503945738
+      ],
+      "min": 0.9220698445878062,
+      "max": 0.9531609784648941
+    },
+    {
+      "algorithm": "Prim",
+      "density": "sparse",
+      "formula": "comparisons / (m log2 m)",
+      "values": [
+        1.8310542358752488,
+        1.8663992649006627,
+        1.8998476867508922,
+        1.9296728319505192,
+        1.9458219813403388
+      ],
+      "min": 1.8310542358752488,
+      "max": 1.9458219813403388
+    },
+    {
+      "algorithm": "Prim",
+      "density": "dense",
+      "formula": "comparisons / (m log2 m)",
+      "values": [
+        1.8262055748929344,
+        1.8488056261065913,
+        1.867893614736162,
+        1.8803617683663238,
+        1.8920768345111518
+      ],
+      "min": 1.8262055748929344,
+      "max": 1.8920768345111518
+    },
+    {
+      "algorithm": "Kosaraju",
+      "density": "sparse",
+      "formula": "edgeScans / (n + m)",
+      "values": [
+        1.6,
+        1.6,
+        1.6,
+        1.6,
+        1.6
+      ],
+      "min": 1.6,
+      "max": 1.6
+    },
+    {
+      "algorithm": "Kosaraju",
+      "density": "dense",
+      "formula": "edgeScans / (n + m)",
+      "values": [
+        1.9047619047619047,
+        1.9047619047619047,
+        1.9047619047619047,
+        1.9047619047619047,
+        1.9047619047619047
+      ],
+      "min": 1.9047619047619047,
+      "max": 1.9047619047619047
+    },
+    {
+      "algorithm": "Kahn",
+      "density": "sparse",
+      "formula": "edgeScans / (n + m)",
+      "values": [
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8
+      ],
+      "min": 0.8,
+      "max": 0.8
+    },
+    {
+      "algorithm": "Kahn",
+      "density": "dense",
+      "formula": "edgeScans / (n + m)",
+      "values": [
+        0.9523809523809523,
+        0.9523809523809523,
+        0.9523809523809523,
+        0.9523809523809523,
+        0.9523809523809523
+      ],
+      "min": 0.9523809523809523,
+      "max": 0.9523809523809523
+    },
+    {
+      "algorithm": "DagShortestPath",
+      "density": "sparse",
+      "formula": "edgeScans / (n + m)",
+      "values": [
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8
+      ],
+      "min": 0.8,
+      "max": 0.8
+    },
+    {
+      "algorithm": "DagShortestPath",
+      "density": "dense",
+      "formula": "edgeScans / (n + m)",
+      "values": [
+        0.9523809523809523,
+        0.9523809523809523,
+        0.9523809523809523,
+        0.9523809523809523,
+        0.9523809523809523
+      ],
+      "min": 0.9523809523809523,
+      "max": 0.9523809523809523
+    }
+  ],
+  "time_largest": [
+    {
+      "algorithm": "Kruskal",
+      "density": "sparse",
+      "ms": 249.454614
+    },
+    {
+      "algorithm": "Kruskal",
+      "density": "dense",
+      "ms": 1755.609792
+    },
+    {
+      "algorithm": "Prim",
+      "density": "sparse",
+      "ms": 363.66021
+    },
+    {
+      "algorithm": "Prim",
+      "density": "dense",
+      "ms": 2765.251894
+    },
+    {
+      "algorithm": "Kosaraju",
+      "density": "sparse",
+      "ms": 226.92481
+    },
+    {
+      "algorithm": "Kosaraju",
+      "density": "dense",
+      "ms": 998.250375
+    },
+    {
+      "algorithm": "Kahn",
+      "density": "sparse",
+      "ms": 57.647869
+    },
+    {
+      "algorithm": "Kahn",
+      "density": "dense",
+      "ms": 300.755446
+    },
+    {
+      "algorithm": "DagShortestPath",
+      "density": "sparse",
+      "ms": 116.482536
+    },
+    {
+      "algorithm": "DagShortestPath",
+      "density": "dense",
+      "ms": 380.799384
+    }
+  ],
+  "test_count": 21,
+  "kruskal_dsu_per_m": {
+    "sparse": [
+      1.79075,
+      2.019054395951929,
+      2.181825,
+      2.23171425860924,
+      2.2483375
+    ],
+    "dense": [
+      0.48015,
+      0.5062776723592662,
+      0.464715,
+      0.6540144831293678,
+      0.7935715
+    ]
+  },
+  "kruskal_share": {
+    "sparse": [
+      0.7705,
+      0.8845667299177735,
+      0.965925,
+      0.9908610821237707,
+      0.99917
+    ],
+    "dense": [
+      0.2151,
+      0.22814674256799494,
+      0.20736,
+      0.30200803212851407,
+      0.371786
+    ]
+  }
+}

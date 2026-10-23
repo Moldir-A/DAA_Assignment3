@@ -1,0 +1,7 @@
+{'name': 'tests.DSUTest', 'tests': '2', 'errors': '0', 'failures': '0', 'skipped': '0'}
+{'name': 'tests.GraphTest', 'tests': '3', 'errors': '0', 'failures': '0', 'skipped': '0'}
+{'name': 'tests.MetricsTest', 'tests': '3', 'errors': '0', 'failures': '0', 'skipped': '0'}
+{'name': 'tests.MstTest', 'tests': '4', 'errors': '0', 'failures': '0', 'skipped': '0'}
+{'name': 'tests.PathsTest', 'tests': '6', 'errors': '0', 'failures': '0', 'skipped': '0'}
+{'name': 'tests.SccTest', 'tests': '3', 'errors': '0', 'failures': '0', 'skipped': '0'}
+Total: 21 tests
