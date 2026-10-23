@@ -207,52 +207,52 @@
     {
       "algorithm": "Kruskal",
       "density": "sparse",
-      "ms": 249.454614
+      "ms": 291.083315
     },
     {
       "algorithm": "Kruskal",
       "density": "dense",
-      "ms": 1755.609792
+      "ms": 1517.781332
     },
     {
       "algorithm": "Prim",
       "density": "sparse",
-      "ms": 363.66021
+      "ms": 300.312589
     },
     {
       "algorithm": "Prim",
       "density": "dense",
-      "ms": 2765.251894
+      "ms": 2428.219897
     },
     {
       "algorithm": "Kosaraju",
       "density": "sparse",
-      "ms": 226.92481
+      "ms": 179.178638
     },
     {
       "algorithm": "Kosaraju",
       "density": "dense",
-      "ms": 998.250375
+      "ms": 866.119307
     },
     {
       "algorithm": "Kahn",
       "density": "sparse",
-      "ms": 57.647869
+      "ms": 57.15642
     },
     {
       "algorithm": "Kahn",
       "density": "dense",
-      "ms": 300.755446
+      "ms": 244.999205
     },
     {
       "algorithm": "DagShortestPath",
       "density": "sparse",
-      "ms": 116.482536
+      "ms": 86.869259
     },
     {
       "algorithm": "DagShortestPath",
       "density": "dense",
-      "ms": 380.799384
+      "ms": 327.301334
     }
   ],
   "test_count": 21,

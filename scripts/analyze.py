@@ -97,6 +97,10 @@ for file in sorted((ROOT/'target/surefire-reports').glob('TEST-*.xml')):
     a=ET.parse(file).getroot().attrib
     suites.append({k:a[k] for k in ['name','tests','errors','failures','skipped']})
 analysis['test_count'] = sum(int(s['tests']) for s in suites)
+if not suites and (ROOT/'results/test_summary.txt').exists():
+    import re
+    match = re.search(r'Total: (\d+) tests', (ROOT/'results/test_summary.txt').read_text())
+    if match: analysis['test_count'] = int(match.group(1))
 if suites:
     (ROOT/'results/test_summary.txt').write_text('\n'.join(str(s) for s in suites)+'\nTotal: '+str(analysis['test_count'])+' tests\n')
 (ROOT/'results/analysis.json').write_text(json.dumps(analysis,indent=2)+'\n')

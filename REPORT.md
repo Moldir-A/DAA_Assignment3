@@ -125,7 +125,7 @@ Slopes are ordinary least-squares fits of ln(counter) against ln(n). Traversals 
 
 ## Time and reproducibility
 
-Times are medians of five runs after one warm-up. Environment: Java: 17.0.20; OS: Linux amd64; Max heap bytes: 2147483648. At n = 100,000 and m = 2,000,000: Kruskal 1,755.6 ms, Prim 2,765.3 ms, Kosaraju 998.3 ms, Kahn 300.8 ms, DagShortestPath 380.8 ms. Small cases show JVM warm-up and timing noise. Hardware, allocation, garbage collection, and background load affect elapsed time, so conclusions use counters. Result values and deterministic loop counts reproduce; priority-queue comparator counts can depend on the JDK implementation.
+Times are medians of five runs after one warm-up. Environment: Java: 17.0.20; OS: Linux amd64; Max heap bytes: 2147483648. At n = 100,000 and m = 2,000,000: Kruskal 1,517.8 ms, Prim 2,428.2 ms, Kosaraju 866.1 ms, Kahn 245.0 ms, DagShortestPath 327.3 ms. Small cases show JVM warm-up and timing noise. Hardware, allocation, garbage collection, and background load affect elapsed time, so conclusions use counters. Result values and deterministic loop counts reproduce; priority-queue comparator counts can depend on the JDK implementation.
 
 Run bash scripts/reproduce.sh after installing the Python requirements. It builds, runs JUnit, benchmarks all ten pairs, and regenerates plots, analysis, and this report. Git contains main, the five required feature branches, and release tag v1.0. AI assistance in implementation, testing, and report preparation is acknowledged in README.md.
 
